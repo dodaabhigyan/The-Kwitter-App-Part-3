@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Kwitter	<sup>
+	<img src="data:image/png;base64,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">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="https://play-lh.googleusercontent.com/JmTQsXdAWCQqJlm4BeKlxV_9gc5pt89YBIRq398VXR3Nk4qVlak25sVQlfrzJrpulpA" class="logo">
+		<h3 >See what is happening in the world right this instant!</h3>
+		<h4 >Join Kwitter today</h4>
+		<div class="form-group">
+		  <label >Your Choice of Username Below!</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="User Name">
+
+		</div>
+		<button id="login_button" class="btn btn-danger" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+</body>
+</html>
